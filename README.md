@@ -74,7 +74,5 @@ The script is designed to automate and enhance the process of dataset analysis b
 ---
 
 This development journey showcases a blend of traditional analytics and modern AI, resulting in a powerful tool for data analysis.
-## Correlation Heatmap 
 
-![Correlation Heatmap](correlation_heatmap.png)
 
