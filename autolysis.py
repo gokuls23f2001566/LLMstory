@@ -142,7 +142,7 @@ def append_image_to_readme(readme_path, image_path, caption="Correlation Heatmap
         print(f"README file not found at {readme_path}. Creating a new one.")
         with open(readme_path, "w") as file:
             file.write("# Analysis Results\n\n")
-
+    image_path=image_path.replace('./','/')
     # Prepare the Markdown image reference
     image_markdown = f"## {caption} \n\n" + f"![{caption}]({image_path})\n\n"
 
